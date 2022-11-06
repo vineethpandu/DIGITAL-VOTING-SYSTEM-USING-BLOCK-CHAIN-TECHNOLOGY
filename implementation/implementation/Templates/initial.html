@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Online Voting</title>
+ <style>
+ body {
+ background-image: url('https://static.toiimg.com/thumb/77480569/IndiaFlag.jpg?width=1200&height=900');
+ background-repeat: no-repeat;
+ background-attachment:fixed;
+ background-size: 100% 100%;
+
+ }
+
+
+div.transbox {
+ margin: 100px;
+ background-color: #ffffff;
+ border: 1px solid black;
+ opacity: 0.8;
+ text-align:center;
+ padding-top:100px;
+ padding-bottom:150px;
+ box-shadow: 0 8px 80px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+ </style>
+</head>
+<body>
+<div class="background">
+ <div class="transbox">
+ <h2>Online Voting Powered by Blockchain</h2>
+ <form action = "#" method = "POST">
+ <h3>Enter the Voter ID</h3>
+ <p>Must start with <b style="color: rgb(241, 68, 0);">VOID</b>
+ and followed by three integers
+ <input type="text" name="voterID" required>
+ <br><br>
+ <button type = "submit" value = "new_vote" name="submit">
+ New Vote
+ </button>
+ <button type = "submit" value = "see_chain" name="submit">
+ See Chain
+ </button>
+ </div>
+</div>
+ </form>
+</body>
+</html>

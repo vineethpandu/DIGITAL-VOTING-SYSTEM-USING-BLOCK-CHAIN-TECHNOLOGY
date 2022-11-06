@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Miner Page</title>
+ <style>
+body {
+ padding: 20px;
+ text-align: center;
+ font-size: 25px;
+background-image: url("https://cdn.wallpapersafari.com/30/71/yr2PxR.jpg");
+}
+form {
+ background-color: #666;
+ padding-top: 20px;
+ padding-bottom: 100px;
+ text-align: center;
+ font-size: 25px;
+ color: white;
+
+ box-shadow: 0 4px 8px 0 rgba(137, 135, 135, 0.5), 0 6px 20px 0 rgba(200, 199, 199, 0.3);
+}
+h2{
+    color: white;
+}
+</style>
+</head>
+<body>
+ <h2 id="H2">Online Voting Powered by Blockchain</h2>
+ <form action = "#" method = "POST">
+ <h3>Enter the Miner ID</h3>
+ <p>Must start with <b style="color: rgb(241, 68, 0);">MOID</b>
+ and followed by three integers
+ <input type="text" name="minerID" required>
+ <br><br>
+ <button type="submit" name="submit" value="mine">Mine</button><br>
+ <p>Not a miner?Click on Vote</p>
+ <button type="submit" name="submit" value="vote" formnovalidate>Vote</button>
+ </form>
+</body>
+</html>
